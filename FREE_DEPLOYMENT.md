@@ -70,7 +70,7 @@ git commit -m "Initial commit"
 # 4. Click "Create repository"
 
 # Link and push
-git remote add origin https://github.com/YOUR_USERNAME/sonal-agritech.git
+git remote add origin https://github.com/harshkuhikar/image_gallery.git
 git branch -M main
 git push -u origin main
 ```
@@ -126,6 +126,17 @@ Build Command: npm install --legacy-peer-deps && npm run build
 Publish Directory: client/dist
 ```
 
+MONGODB_URI = mongodb+srv://harshkuhikar68:Kuhikar%401122@image-gallery.mkgdpbp.mongodb.net/sonal-agritech
+JWT_SECRET = f496feefac9b6b283dedf670bf4a3cf51317ec0504599f2731eeb8efa34b7eeb
+PORT = 5000
+CLOUDINARY_CLOUD_NAME = dqzbrs69t
+CLOUDINARY_API_KEY = 228621393946327
+CLOUDINARY_API_SECRET = lB8c1rtuOJ95bX7xgI4JBGKba7s
+ADMIN_EMAIL = sonalagritech@gmail.com
+ADMIN_PASSWORD = Sonal@2026
+NODE_ENV = production
+
+
 4. **Add Environment Variable:**
 
 ```
@@ -155,6 +166,29 @@ VITE_API_URL = https://sonal-agritech-backend.onrender.com/api
 **Done! Your website is live! 🎉**
 
 ---
+
+Name: sonal-agritech-frontend
+Branch: main
+Root Directory: client
+Build Command: npm install --legacy-peer-deps && npm run build
+Publish Directory: client/dist
+
+Environment Variables:
+Key: VITE_API_URL
+Value: https://sonal-agritech-backend.onrender.com/api
+
+
+MONGODB_URI = mongodb+srv://harshkuhikar68:Kuhikar%401122@image-gallery.mkgdpbp.mongodb.net/sonal-agritech
+JWT_SECRET = sonal_agritech_super_secret_key_2024_production
+PORT = 5000
+CLOUDINARY_CLOUD_NAME = dqzbrs69t
+CLOUDINARY_API_KEY = 228621393946327
+CLOUDINARY_API_SECRET = lB8c1rtuOJ95bX7xgI4JBGKba7s
+ADMIN_EMAIL = sonalagritech@gmail.com
+ADMIN_PASSWORD = Sonal@2026
+NODE_ENV = production
+
+
 
 ## 🎯 Option 2: Railway.app (Also FREE)
 
