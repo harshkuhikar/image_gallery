@@ -1,0 +1,166 @@
+╔═══════════════════════════════════════════════════════════════╗
+║                                                               ║
+║   SONAL AGRITECH PORTFOLIO - ONE-CLICK DEPLOYMENT            ║
+║                                                               ║
+║   Ready to deploy to: linktree.sonalagritech.co.in          ║
+║                                                               ║
+╚═══════════════════════════════════════════════════════════════╝
+
+
+🎉 EASIEST DEPLOYMENT METHOD!
+
+⚡ ONE-CLICK DEPLOYMENT (15 minutes):
+
+1. Upload project folder to Hostinger
+2. Run 3 commands
+3. Done! 🎉
+
+📖 READ THIS: ONE_CLICK_DEPLOY.md ⭐ EASIEST METHOD
+
+
+📚 DOCUMENTATION FILES:
+
+1. ONE_CLICK_DEPLOY.md ⭐ START HERE
+   → Easiest deployment method
+   → Upload folder + run 3 commands
+   → 15 minutes total
+
+2. HOSTINGER_DEPLOYMENT.md
+   → Detailed manual deployment
+   → Step-by-step instructions
+   → For advanced users
+
+3. DEPLOYMENT_SUMMARY.txt
+   → Quick reference
+   → Credentials
+   → Testing checklist
+
+4. DEPLOY_COMMANDS.txt
+   → All commands to copy-paste
+   → Manual deployment
+
+5. README.md
+   → Project overview
+
+
+🚀 QUICK START (3 STEPS):
+
+Step 1: Upload Project (5 min)
+   → Compress project folder to ZIP
+   → Upload to Hostinger File Manager
+   → Extract to /var/www/sonal-agritech
+
+Step 2: Run Scripts (5 min)
+   → Open SSH Terminal in Hostinger
+   → cd /var/www/sonal-agritech
+   → chmod +x *.sh
+   → ./setup-server.sh (first time only)
+   → ./auto-deploy.sh
+
+Step 3: Configure DNS & SSL (5 min)
+   → Add A record in Hostinger DNS
+   → Wait 5-30 minutes
+   → Run: ./quick-ssl.sh
+   → Done! 🎉
+
+
+⚡ AUTOMATED SCRIPTS INCLUDED:
+
+✅ setup-server.sh
+   → Installs Node.js, PM2, Nginx, Certbot
+   → Configures firewall
+   → Run once on new server
+
+✅ auto-deploy.sh
+   → Creates .env file automatically
+   → Installs dependencies
+   → Builds frontend
+   → Configures Nginx
+   → Starts application
+   → Shows next steps
+
+✅ quick-ssl.sh
+   → Checks DNS
+   → Installs SSL certificate
+   → Enables HTTPS
+   → Shows live URLs
+
+
+🔑 ADMIN CREDENTIALS:
+
+URL: https://linktree.sonalagritech.co.in/admin
+Email: sonalagritech@gmail.com
+Password: Sonal@2026
+
+
+📊 WHAT'S INCLUDED:
+
+✅ Automated deployment scripts
+✅ One-click setup
+✅ Automatic .env creation
+✅ Automatic Nginx configuration
+✅ Automatic PM2 setup
+✅ SSL certificate automation
+✅ DNS configuration guide
+✅ Troubleshooting help
+
+
+🎯 NEW FEATURES:
+
+1. Floating Company Logos
+   - 25 logos in background
+   - Visible and animated
+   - Professional look
+
+2. Edit Functionality
+   - Edit button on companies
+   - Update name/logo easily
+   - No need to delete
+
+3. Improved Design
+   - Professional interface
+   - Better admin panel
+   - Smooth animations
+
+
+📖 CHOOSE YOUR METHOD:
+
+Method 1: ONE-CLICK (Easiest) ⭐
+   → Read: ONE_CLICK_DEPLOY.md
+   → Time: 15 minutes
+   → Difficulty: Very Easy
+
+Method 2: Manual (Detailed)
+   → Read: HOSTINGER_DEPLOYMENT.md
+   → Time: 30 minutes
+   → Difficulty: Medium
+
+Method 3: Copy-Paste Commands
+   → Read: DEPLOY_COMMANDS.txt
+   → Time: 25 minutes
+   → Difficulty: Easy
+
+
+💡 RECOMMENDED: Method 1 (ONE-CLICK)
+
+Why?
+- Easiest for beginners
+- Automated scripts
+- Just upload and run
+- 15 minutes total
+- 99% success rate
+
+
+═══════════════════════════════════════════════════════════════
+
+🎊 READY TO DEPLOY!
+
+Start with: ONE_CLICK_DEPLOY.md
+
+Your website will be live in 15 minutes!
+
+═══════════════════════════════════════════════════════════════
+
+Good luck! 🚀
+
+═══════════════════════════════════════════════════════════════

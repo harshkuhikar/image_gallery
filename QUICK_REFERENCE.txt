@@ -1,0 +1,114 @@
+╔═══════════════════════════════════════════════════════════════╗
+║                                                               ║
+║              SONAL AGRITECH - QUICK REFERENCE                ║
+║                                                               ║
+╚═══════════════════════════════════════════════════════════════╝
+
+🚀 DEPLOYMENT (15 MINUTES)
+═══════════════════════════════════════════════════════════════
+
+1. UPLOAD PROJECT
+   → Compress to ZIP
+   → Upload to /var/www/sonal-agritech
+   → Extract
+
+2. RUN SCRIPTS
+   cd /var/www/sonal-agritech
+   chmod +x *.sh
+   ./setup-server.sh
+   ./auto-deploy.sh
+
+3. CONFIGURE DNS
+   → Hostinger → DNS
+   → A Record: linktree → VPS_IP
+
+4. SETUP SSL
+   ./quick-ssl.sh
+
+═══════════════════════════════════════════════════════════════
+
+🔑 CREDENTIALS
+═══════════════════════════════════════════════════════════════
+
+Website: https://linktree.sonalagritech.co.in
+Admin:   https://linktree.sonalagritech.co.in/admin
+
+Email:    sonalagritech@gmail.com
+Password: Sonal@2026
+
+═══════════════════════════════════════════════════════════════
+
+🔧 MAINTENANCE COMMANDS
+═══════════════════════════════════════════════════════════════
+
+View Logs:
+  pm2 logs sonal-agritech
+
+Restart App:
+  pm2 restart sonal-agritech
+
+Check Status:
+  pm2 status
+
+Update App:
+  cd /var/www/sonal-agritech
+  ./auto-deploy.sh
+
+Restart Nginx:
+  sudo systemctl restart nginx
+
+═══════════════════════════════════════════════════════════════
+
+🐛 TROUBLESHOOTING
+═══════════════════════════════════════════════════════════════
+
+Website not loading:
+  pm2 restart sonal-agritech
+  sudo systemctl restart nginx
+
+502 Error:
+  pm2 logs sonal-agritech
+  sudo nginx -t
+
+Images not uploading:
+  Check .env file
+  Check Cloudinary credentials
+
+Can't login:
+  Check MongoDB Atlas IP whitelist
+  Add: 0.0.0.0/0
+
+═══════════════════════════════════════════════════════════════
+
+📚 DOCUMENTATION
+═══════════════════════════════════════════════════════════════
+
+ONE_CLICK_DEPLOY.md      → Easiest method (15 min)
+HOSTINGER_DEPLOYMENT.md  → Detailed guide (30 min)
+DEPLOY_COMMANDS.txt      → Copy-paste commands
+START_HERE.txt           → Overview
+README.md                → Project info
+
+═══════════════════════════════════════════════════════════════
+
+✨ FEATURES
+═══════════════════════════════════════════════════════════════
+
+✅ 25 floating company logos
+✅ Edit functionality
+✅ Image upload
+✅ iOS-inspired design
+✅ Fully responsive
+✅ HTTPS/SSL
+✅ Admin panel
+
+═══════════════════════════════════════════════════════════════
+
+📞 SUPPORT
+═══════════════════════════════════════════════════════════════
+
+Hostinger:  https://www.hostinger.com/contact
+MongoDB:    https://www.mongodb.com/support
+Cloudinary: https://support.cloudinary.com/
+
+═══════════════════════════════════════════════════════════════
